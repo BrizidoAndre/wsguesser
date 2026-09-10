@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <object-set>
+    <root path="">
+      <view name="virtual_view_name" query="select game.games.status, words.name from games left join game.words on game.words.id = game.games.word_id order by game.games.id;"/>
+    </root>
+  </object-set>
+</data>
